@@ -1,0 +1,50 @@
+a{
+    color: white;
+    text-decoration: black;
+}
+.container{
+    background-image:
+    linear-gradient(to right,#01022d7c 50%,#00000079),
+  url(imgdd.jpg)  ;
+    background-position:center ;
+    width: 90%;
+    height: 640px;
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right,#01022d7c,transparent),
+  url(imgdd.jpg)
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 3px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: yellow;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 40px;
+}
+.content{
+    letter-spacing: 4px;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color:rgba(0, 0, 0, 0.082);
+    color: rgba(255, 255, 255, 0.274);
+}
